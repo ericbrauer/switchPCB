@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:switchPCB-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -16,34 +17,34 @@ $EndDescr
 $Comp
 L sw_3pdt_x3:SW_3PDT_x3 SW1
 U 3 1 5CF92ED3
-P 5350 2500
-F 0 "SW1" H 5350 2785 50  0000 C CNN
-F 1 "SW_3PDT_x3" H 5350 2694 50  0000 C CNN
-F 2 "hairyPachyderm:3PDT-footswitch-lugged" H 5350 2500 50  0001 C CNN
-F 3 "" H 5350 2500 50  0001 C CNN
-	3    5350 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L sw_3pdt_x3:SW_3PDT_x3 SW1
-U 1 1 5CF93003
-P 5300 3150
-F 0 "SW1" H 5300 3435 50  0000 C CNN
-F 1 "SW_3PDT_x3" H 5300 3344 50  0000 C CNN
-F 2 "hairyPachyderm:3PDT-footswitch-lugged" H 5300 3150 50  0001 C CNN
-F 3 "" H 5300 3150 50  0001 C CNN
-	1    5300 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L sw_3pdt_x3:SW_3PDT_x3 SW1
-U 2 1 5CF93068
 P 5300 3650
 F 0 "SW1" H 5300 3935 50  0000 C CNN
 F 1 "SW_3PDT_x3" H 5300 3844 50  0000 C CNN
 F 2 "hairyPachyderm:3PDT-footswitch-lugged" H 5300 3650 50  0001 C CNN
 F 3 "" H 5300 3650 50  0001 C CNN
-	2    5300 3650
+	3    5300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L sw_3pdt_x3:SW_3PDT_x3 SW1
+U 1 1 5CF93003
+P 5350 2500
+F 0 "SW1" H 5350 2785 50  0000 C CNN
+F 1 "SW_3PDT_x3" H 5350 2694 50  0000 C CNN
+F 2 "hairyPachyderm:3PDT-footswitch-lugged" H 5350 2500 50  0001 C CNN
+F 3 "" H 5350 2500 50  0001 C CNN
+	1    5350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L sw_3pdt_x3:SW_3PDT_x3 SW1
+U 2 1 5CF93068
+P 5300 3150
+F 0 "SW1" H 5300 3435 50  0000 C CNN
+F 1 "SW_3PDT_x3" H 5300 3344 50  0000 C CNN
+F 2 "hairyPachyderm:3PDT-footswitch-lugged" H 5300 3150 50  0001 C CNN
+F 3 "" H 5300 3150 50  0001 C CNN
+	2    5300 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -193,7 +194,7 @@ U 1 1 5CF93F71
 P 6500 1900
 F 0 "R1" V 6293 1900 50  0000 C CNN
 F 1 "220" V 6384 1900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6430 1900 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6430 1900 50  0001 C CNN
 F 3 "~" H 6500 1900 50  0001 C CNN
 	1    6500 1900
 	0    1    1    0   
