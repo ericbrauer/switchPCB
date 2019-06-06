@@ -13,4 +13,201 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L sw_3pdt_x3:SW_3PDT_x3 SW1
+U 3 1 5CF92ED3
+P 5350 2500
+F 0 "SW1" H 5350 2785 50  0000 C CNN
+F 1 "SW_3PDT_x3" H 5350 2694 50  0000 C CNN
+F 2 "hairyPachyderm:3PDT-footswitch-lugged" H 5350 2500 50  0001 C CNN
+F 3 "" H 5350 2500 50  0001 C CNN
+	3    5350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L sw_3pdt_x3:SW_3PDT_x3 SW1
+U 1 1 5CF93003
+P 5300 3150
+F 0 "SW1" H 5300 3435 50  0000 C CNN
+F 1 "SW_3PDT_x3" H 5300 3344 50  0000 C CNN
+F 2 "hairyPachyderm:3PDT-footswitch-lugged" H 5300 3150 50  0001 C CNN
+F 3 "" H 5300 3150 50  0001 C CNN
+	1    5300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L sw_3pdt_x3:SW_3PDT_x3 SW1
+U 2 1 5CF93068
+P 5300 3650
+F 0 "SW1" H 5300 3935 50  0000 C CNN
+F 1 "SW_3PDT_x3" H 5300 3844 50  0000 C CNN
+F 2 "hairyPachyderm:3PDT-footswitch-lugged" H 5300 3650 50  0001 C CNN
+F 3 "" H 5300 3650 50  0001 C CNN
+	2    5300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2400 6000 2400
+Wire Wire Line
+	6000 2400 6000 3550
+Wire Wire Line
+	6000 3550 5500 3550
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 5CF9319D
+P 7150 2900
+F 0 "J3" H 7177 2876 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 7177 2785 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7150 2900 50  0001 C CNN
+F 3 "~" H 7150 2900 50  0001 C CNN
+	1    7150 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2600 6350 2600
+Wire Wire Line
+	6350 2600 6350 2900
+Wire Wire Line
+	6350 2900 6950 2900
+Wire Wire Line
+	5500 3750 6350 3750
+Wire Wire Line
+	6350 3750 6350 3000
+Wire Wire Line
+	6350 3000 6950 3000
+NoConn ~ 5500 3050
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5CF9342B
+P 3700 2700
+F 0 "J1" H 3594 2375 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 3594 2466 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3700 2700 50  0001 C CNN
+F 3 "~" H 3700 2700 50  0001 C CNN
+	1    3700 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5CF9351A
+P 3700 3400
+F 0 "J2" H 3594 3075 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 3594 3166 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3700 3400 50  0001 C CNN
+F 3 "~" H 3700 3400 50  0001 C CNN
+	1    3700 3400
+	-1   0    0    1   
+$EndComp
+Text Notes 3100 2700 0    50   ~ 0
+INPUT JACK
+Text Notes 3050 3400 0    50   ~ 0
+OUTPUT JACK
+$Comp
+L power:GND #PWR0101
+U 1 1 5CF935C0
+P 6850 3200
+F 0 "#PWR0101" H 6850 2950 50  0001 C CNN
+F 1 "GND" H 6855 3027 50  0000 C CNN
+F 2 "" H 6850 3200 50  0001 C CNN
+F 3 "" H 6850 3200 50  0001 C CNN
+	1    6850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CF935F4
+P 5000 3200
+F 0 "#PWR0102" H 5000 2950 50  0001 C CNN
+F 1 "GND" H 5005 3027 50  0000 C CNN
+F 2 "" H 5000 3200 50  0001 C CNN
+F 3 "" H 5000 3200 50  0001 C CNN
+	1    5000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CF93628
+P 4000 2750
+F 0 "#PWR0103" H 4000 2500 50  0001 C CNN
+F 1 "GND" H 4005 2577 50  0000 C CNN
+F 2 "" H 4000 2750 50  0001 C CNN
+F 3 "" H 4000 2750 50  0001 C CNN
+	1    4000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CF9365C
+P 4000 3450
+F 0 "#PWR0104" H 4000 3200 50  0001 C CNN
+F 1 "GND" H 4005 3277 50  0000 C CNN
+F 2 "" H 4000 3450 50  0001 C CNN
+F 3 "" H 4000 3450 50  0001 C CNN
+	1    4000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3200 6850 3100
+Wire Wire Line
+	6850 3100 6950 3100
+Wire Wire Line
+	4000 3450 4000 3400
+Wire Wire Line
+	4000 3400 3900 3400
+Wire Wire Line
+	4000 2750 4000 2700
+Wire Wire Line
+	4000 2700 3900 2700
+Wire Wire Line
+	3900 2600 4500 2600
+Wire Wire Line
+	4500 2600 4500 2500
+Wire Wire Line
+	4500 2500 5150 2500
+Wire Wire Line
+	5000 3200 5000 3150
+Wire Wire Line
+	5000 3150 5100 3150
+Wire Wire Line
+	3900 3300 4400 3300
+Wire Wire Line
+	4400 3300 4400 3650
+Wire Wire Line
+	4400 3650 5100 3650
+Text Notes 7350 2850 0    50   ~ 0
+TO PCB
+$Comp
+L Device:LED D1
+U 1 1 5CF93ECD
+P 6100 1900
+F 0 "D1" H 6091 2116 50  0000 C CNN
+F 1 "LED" H 6091 2025 50  0000 C CNN
+F 2 "hairyPachyderm:LED_D5.0mm" H 6100 1900 50  0001 C CNN
+F 3 "~" H 6100 1900 50  0001 C CNN
+	1    6100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CF93F71
+P 6500 1900
+F 0 "R1" V 6293 1900 50  0000 C CNN
+F 1 "220" V 6384 1900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6430 1900 50  0001 C CNN
+F 3 "~" H 6500 1900 50  0001 C CNN
+	1    6500 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 2800 6950 1900
+Wire Wire Line
+	6950 1900 6650 1900
+Wire Wire Line
+	6350 1900 6250 1900
+Wire Wire Line
+	5950 1900 5700 1900
+Wire Wire Line
+	5700 1900 5700 3250
+Wire Wire Line
+	5700 3250 5500 3250
 $EndSCHEMATC
