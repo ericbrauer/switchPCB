@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:switchPCB-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -80,24 +79,24 @@ NoConn ~ 5500 3050
 $Comp
 L Connector:Conn_01x02_Female J1
 U 1 1 5CF9342B
-P 3700 2700
-F 0 "J1" H 3594 2375 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 3594 2466 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3700 2700 50  0001 C CNN
-F 3 "~" H 3700 2700 50  0001 C CNN
-	1    3700 2700
-	-1   0    0    1   
+P 3700 2600
+F 0 "J1" H 3594 2275 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 3594 2366 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 3700 2600 50  0001 C CNN
+F 3 "~" H 3700 2600 50  0001 C CNN
+	1    3700 2600
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Female J2
 U 1 1 5CF9351A
-P 3700 3400
-F 0 "J2" H 3594 3075 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 3594 3166 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3700 3400 50  0001 C CNN
-F 3 "~" H 3700 3400 50  0001 C CNN
-	1    3700 3400
-	-1   0    0    1   
+P 3700 3300
+F 0 "J2" H 3594 2975 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 3594 3066 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 3700 3300 50  0001 C CNN
+F 3 "~" H 3700 3300 50  0001 C CNN
+	1    3700 3300
+	-1   0    0    -1  
 $EndComp
 Text Notes 3100 2700 0    50   ~ 0
 INPUT JACK
